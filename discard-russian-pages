@@ -1,0 +1,13 @@
+! name: Discard russian pages
+! description: Goggle for filtering out russian pages.
+! public: false
+! author: gravity-beaver
+
+/ru/$discard
+
+https://ru.$discard
+http://ru.$discard
+
+.ru/$discard
+
+
